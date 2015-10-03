@@ -25,7 +25,7 @@ int token(char *buf){
     if (strcmp(argList[0], "cd") == 0){
         cd(argList[1]);
     }
-    if (strcmp(argList[0], "exit") == 0){
+    else if (strcmp(argList[0], "exit") == 0){
         exit(0);  
     }
     else {
